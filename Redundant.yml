@@ -1,0 +1,9 @@
+extends: substitution
+message: Prefer '%s' over '%s'
+ignorecase: true
+swap:
+  '(?:already exists)': exists
+  '(?:check to be sure)': ensure
+  '(?:more details)': details
+  '(?:more information)': information
+  '(?:whether or not)': whether
